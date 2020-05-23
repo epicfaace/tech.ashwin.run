@@ -1,0 +1,31 @@
+{
+  "name": "parcel-website",
+  "version": "1.0.0",
+  "description": "The parcel website",
+  "main": "index.js",
+  "repository": "git://git@github.com:parcel-bundler/website.git",
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "rm -rf dist",
+    "start": "node src/server.js",
+    "format": "prettier --write 'src/**/*.{md,js,css,json}'",
+    "deploy": "now"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "markdown-styles": "^3.1.10",
+    "now": "^11.2.4",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0"
+  }
+}
