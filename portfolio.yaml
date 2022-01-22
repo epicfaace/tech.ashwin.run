@@ -1,1 +1,142 @@
-
+# - name: [employer name]
+#   role: [role]
+#   start_date: ...
+#   end_date: ...
+#   ongoing: ...
+#   tags: [software, leadership, government, law, policy]
+#   description: |
+# .....
+- name: Cybersecurity and Infrastructure Security Agency
+  role: IT Specialist (INFOSEC)
+  start_date: June 2020
+  ongoing: true
+  tags: [software, leadership, government]
+  description: |
+I launched and managed a pilot of [Crossfeed](https://docs.crossfeed.cyber.dhs.gov/), an open-source software tool used for securing public-facing election infrastructure in advance of the 2020 election, and worked on vulnerability notifications for affected entities during the pilot. We used cloud technologies such as AWS Fargate, AWS Lambda, and Elasticsearch. We worked with a small team of contractors and software developers to develop the product. I originally joined CISA as part of a team of scrappy interns in June 2020, but have converted to a more permanent role since then.
+- name: Schmidt Futures
+  role: Researcher - Plaintext Group
+  start_date: April 2021
+  ongoing: true
+  tags: [policy]
+  description: |
+I joined Plaintext Group, a technology policy initiative within Schmidt Futures. I researched cyber policy and national security issues and sourced and researched opportunities for grantmaking, specifically around sustainability of the open source software ecosystem.
+- name: Stanford Internet Observatory
+  role: Research Assistant
+  start_date: April 2020
+  end_date: August 2021
+  tags: [software, policy]
+  description: |
+I architected and implemented web scraping and social media data ingest pipelines using software tools. I also co-authored a [report](https://purl.stanford.edu/tr171zs0069) on social media election misinformation and researched COVID-19 anti-vax misinformation.
+- name: Stanford Center for International Security and Cooperation
+  role: Research Assistant
+  start_date: October 2019
+  end_date: March 2020
+  tags: [policy]
+  description: |
+As a research assistant to Dr. Colin Kahl, I wrote a white paper on artificial intelligence’s effects on strategic stability (nuclear deterrence, situational awareness).
+- name: The Stanford Daily
+  role: Chief Technical Officer
+  start_date: June 2018
+  end_date: June 2020
+  ongoing: true
+  tags: [software, leadership]
+  description: |
+As the first CTO, established and managed the campus newspaper’s tech team to work on the website and app. I also taught a Stanford Computer Science course to provide technical and web development training for team members.
+- name: CodaLab Worksheets
+  role: Research Assistant
+  start_date: June 2019
+  ongoing: true
+  tags: [software, leadership]
+  description: |
+Architected and implemented infrastructure changes for the open-source compute platform CodaLab Worksheets, such as refactoring to use Azure Blob Storage and setting up CI / test infrastructure. As the lead developer, I lead weekly meetings with other members of the team and help set priorities and long-term goals for the project.
+- name: Nooks
+  role: Technical Consultant
+  start_date: September 2020
+  end_date: January 2021
+  tags: [software]
+  description: |
+Improved scalability for the video-calling platform of the startup Nooks. Set up a CI/CD pipeline and infrastructure with Google App Engine, Google Cloud Build, and Google Kubernetes Engine.
+- name: Pulsar
+  role: Technical Consultant
+  start_date: March 2020
+  end_date: October 2020
+  tags: [software]
+  description: |
+Architected and implemented a distributed system for aggregating industrial sensor data for the startup Pulsar, using AWS Lambda, React, and Cassandra on AWS. Interviewed and built a team of developers for product development.
+- name: Eventive
+  role: Technical Consultant
+  start_date: June 2019
+  ongoing: true
+  tags: [software]
+  description: |
+Architected and implemented a system for ingesting and serving video content for the startup Eventive, with DRM protection, using Azure Media Services. Managed compliance processes and formulated policies for cybersecurity.
+- name: react-jsonschema-form
+  role: Maintainer
+  start_date: January 2019
+  ongoing: true
+  tags: [software, leadership]
+  description: |
+I maintain and release an open source React library for generating forms based on JSON Schema. I triage issues and accept contributions from other open-source developers and lead planning and release cycles to npm.
+- name: Pulsar
+  role: Technical Consultant
+  start_date: March 2020
+  end_date: October 2020
+  tags: [software]
+  description: |
+Architected and implemented a distributed system for aggregating industrial sensor data for the startup Pulsar, using AWS Lambda, React, and Cassandra on AWS. Interviewed and built a team of developers for product development.
+- name: TreeHacks
+  role: Organizer
+  start_date: June 2018
+  end_date: June 2020
+  tags: [software, leadership]
+  description: |
+Led the tech team and guided web development for TreeHacks hackathon. Built and open-sourced root, an application portal and hackathon event management system.
+- name: Anora
+  role: Engineering Lead
+  start_date: November 2017
+  end_date: June 2019
+  tags: [software, leadership]
+  description: |
+Architected and developed a full-stack web application and data pipeline for a search engine for FDA application data. Led a team of outsourced engineers for development of the application. Interviewed and helped select candidates for a CTO.
+- name: Skiff
+  role: Technical Consultant
+  start_date: March 2020
+  end_date: September 2020
+  tags: [software]
+  description: |
+Set up CI pipelines, developer infrastructure, and developed features for the end-to-end encrypted document collaboration platform Skiff. Uses React, Express.
+- name: Google
+  role: Software Engineering Intern
+  start_date: June 2019
+  end_date: September 2019
+  tags: [software]
+  description: |
+Worked with the Search UI Optimization team to develop a system to detect regressions in latency metrics on the Google search results page. Also worked on interactive dashboards using Go.
+- name: NCR Corporation
+  role: Software Engineering intern
+  start_date: June 2018
+  end_date: August 2018
+  tags: [software]
+  description: |
+Built REST APIs for the NCR Platform and adapters between payment systems using Java and the Spring framework.
+- name: Stanford Immigration Policy Lab
+  role: Research Assistant
+  start_date: January 2018
+  ongoing: true
+  tags: [software]
+  description: |
+Implemented a web interface for GeoMatch, which uses machine learning algorithms to help match refugees to resettlement centers and is currently used in a Swiss pilot. Uses AWS EC2, Django, R.
+- name: Microsoft
+  role: Microsoft Student Partner
+  start_date: September 2017
+  end_date: September 2019
+  tags: [software]
+  description: |
+Hosted workshops on Azure and technologies at Stanford and Georgia Tech. Connected with other MSPs around the country.
+- name: iDisciple
+  role: Software Developer
+  start_date: June 2016
+  end_date: March 2017
+  tags: [software]
+  description: |
+Worked through the TAG-Ed internship program to improve and refactor iDisciple's website, and later worked as a contractor to implement a website redesign. Worked with CSS, SASS, JavaScript, and ASP.NET MVC.
